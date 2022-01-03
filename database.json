@@ -1,0 +1,286 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tim Zeidler",
+      "email": "tim@zeidler.com",
+      "manager": true
+    },
+    {
+      "id": 2,
+      "name": "Heather Fox",
+      "email": "heather@fox.com",
+      "manager": false
+    },
+    {
+      "id": 3,
+      "name": "Garret Vaichard",
+      "email": "garret@vaichard.com",
+      "manager": false
+    },
+    {
+      "id": 8,
+      "name": "Luke Batteau",
+      "email": "luke@batteau.com",
+      "manager": false
+    },
+    {
+      "id": 4,
+      "name": "Todd Kellerman",
+      "email": "todd@kellerman.com",
+      "manager": false
+    },
+    {
+      "id": 5,
+      "name": "Danielle Bumann",
+      "email": "danielle@bumann.com",
+      "manager": false
+    },
+    {
+      "id": 6,
+      "name": "Jerry Kelly",
+      "email": "jerry@kelly.com",
+      "manager": false
+    },
+    {
+      "id": 7,
+      "name": "Ilene Ruoede",
+      "email": "ilene@ruoede.com",
+      "manager": false
+    },
+    {
+      "name": "Bob Bobberson",
+      "email": "bob@bobberson.com",
+      "id": 9,
+      "manager": false
+    },
+    {
+      "manager": false,
+      "name": "Alex Lewis",
+      "email": "alex@lewis.com",
+      "id": 10
+    },
+    {
+      "manager": false,
+      "name": "Jordyn Wieland",
+      "email": "jordyn@wieland.com",
+      "id": 11
+    },
+    {
+      "manager": false,
+      "name": "Charles Long",
+      "email": "charles@long.com",
+      "id": 12
+    },
+    {
+      "manager": false,
+      "name": "Lady Gaga",
+      "email": "lady@gaga.com",
+      "id": 13
+    },
+    {
+      "manager": false,
+      "name": "Luke Zeidler",
+      "email": "luke@zeidler.com",
+      "id": 14
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "status": "New"
+    },
+    {
+      "id": 2,
+      "status": "In Progress"
+    },
+    {
+      "id": 3,
+      "status": "Finished"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Toliet"
+    },
+    {
+      "id": 2,
+      "name": "Sink"
+    },
+    {
+      "id": 3,
+      "name": "Shower"
+    },
+    {
+      "id": 4,
+      "name": "Lighting"
+    },
+    {
+      "id": 5,
+      "name": "Floors"
+    },
+    {
+      "id": 6,
+      "name": "Drywall"
+    },
+    {
+      "id": 7,
+      "name": "Ceiling"
+    },
+    {
+      "id": 8,
+      "name": "Shelving"
+    },
+    {
+      "id": 9,
+      "name": "Decoration"
+    },
+    {
+      "id": 10,
+      "name": "Windows"
+    },
+    {
+      "id": 11,
+      "name": "Appliances"
+    }
+  ],
+  "requests": [
+    {
+      "description": "My marble sink cracked and it needs to be replaced. ",
+      "userId": 5,
+      "topicId": 2,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1639760238400,
+      "id": 5
+    },
+    {
+      "description": "The heating element in my oven needs replaced. ",
+      "userId": 6,
+      "topicId": 11,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1639760303623,
+      "id": 6
+    },
+    {
+      "description": "I need some drywall finished in my new house. ",
+      "userId": 7,
+      "topicId": 6,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1639760348263,
+      "id": 7
+    },
+    {
+      "description": "I need a couple of curtains put up. ",
+      "userId": 9,
+      "topicId": 9,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1639760419335,
+      "id": 8
+    },
+    {
+      "description": "The glass in my window needs replaced. ",
+      "userId": 10,
+      "topicId": 10,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1639760482784,
+      "id": 9
+    },
+    {
+      "description": "Need a light fixture installed in my living room. ",
+      "userId": 11,
+      "topicId": 4,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1639760552628,
+      "id": 10
+    },
+    {
+      "description": "Need some new curtains put up. Poop water ruined them.",
+      "userId": 13,
+      "topicId": 9,
+      "statusId": 2,
+      "budget": "600",
+      "timestamp": 1639776625169,
+      "id": 13
+    },
+    {
+      "description": "I need a window replaced. ",
+      "userId": 2,
+      "topicId": 10,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1640209216762,
+      "id": 14
+    },
+    {
+      "description": "Toilet Request",
+      "userId": 10,
+      "topicId": 1,
+      "statusId": 2,
+      "budget": "60",
+      "timestamp": 1640973012567,
+      "id": 15
+    },
+    {
+      "description": "Request about a shower",
+      "userId": 10,
+      "topicId": 3,
+      "statusId": 2,
+      "budget": "50",
+      "timestamp": 1641153158205,
+      "id": 16
+    },
+    {
+      "description": "Request about lighting ",
+      "userId": 2,
+      "topicId": 4,
+      "statusId": 2,
+      "budget": "100",
+      "timestamp": 1641153336058,
+      "id": 17
+    },
+    {
+      "description": "Request for a shower installation. ",
+      "userId": 2,
+      "topicId": 3,
+      "statusId": 2,
+      "budget": "300",
+      "timestamp": 1641182867752,
+      "id": 18
+    },
+    {
+      "description": "Need new shelving put up in my kitchen. ",
+      "userId": 10,
+      "topicId": 8,
+      "statusId": 2,
+      "budget": "100",
+      "timestamp": 1641183138014,
+      "id": 19
+    },
+    {
+      "description": "Need a new shower installed. ",
+      "userId": 10,
+      "topicId": 3,
+      "statusId": 2,
+      "budget": "399",
+      "timestamp": 1641183234160,
+      "id": 20
+    }
+  ],
+  "messages": [
+    {
+      "message": "Hi Bob! I would be happy to put up those curtains for you. When would be a good time for me to come help you out with that? ",
+      "requestId": 8,
+      "senderId": 1,
+      "timestamp": 1639762824796,
+      "id": 3,
+      "read": true
+    }
+  ]
+}
